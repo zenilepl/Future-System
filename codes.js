@@ -4,6 +4,7 @@ const client = new Discord.Client();
  
 client.on('ready', () => {
   console.log(`Welcome Bro ${client.user.tag}!`);
+  console.log(`by NoHaxJustZenile`);
 });
  
 const prefix = '$'	
